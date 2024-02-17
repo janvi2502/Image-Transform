@@ -12,8 +12,8 @@ This program reads a BMP (Bitmap) image file, converts it to grayscale, and writ
 <h2>Code Overview</h2>
 The program consists of several functions: <br>
 <ul>
-<li>readBMP: Reads the input BMP image file and returns an Image object containing the image data. </li>
-<li>writeBMP: Writes the image data contained in an Image object to a BMP file. </li> 
+<li>readImage: Reads the input BMP image file and returns an Image object containing the image data. </li>
+<li>writeImage: Writes the image data contained in an Image object to a BMP file. </li> 
 <li>toGrayscale: Converts a given pixel to grayscale.</li>
 </ul>
 The main function orchestrates the overall process: <br>
