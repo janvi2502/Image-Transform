@@ -2,12 +2,10 @@
 This program reads a BMP (Bitmap) image file, converts it to grayscale, and writes the result to another BMP image file.
 
 <h2>How to run on Visual Studio 2022</h2>
-1. Clone the repository in your local machine <br>
-2. Open the solution file(Image-Transform.sln) <br>
-3. Build the solution <br>
-4. Run the project <br>
-5. The program will generate an output BMP file named output.bmp, which contains the grayscale version of the input image. <br>
-<br>
+1. Clone the repository to your local machine <br>
+2. Open Visual Studio 2022 and navigate to the cloned repository folder. Open the Image-Transform.sln solution file. <br>
+3. Build and run the project using Visual Studio. Press Ctrl + F5 to build and run without debugging. <br>
+4. After running the program, check the output.bmp file generated in the project directory. This file contains the grayscale version of the input BMP image. <br>
 <br>
 <h2>Code Overview</h2>
 The program consists of several functions: <br>
