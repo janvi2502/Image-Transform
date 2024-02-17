@@ -23,11 +23,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="image.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <Image Include="..\..\..\Users\guptaj\Downloads\jasper.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Users\guptaj\Downloads\jasper.bmp" />
+    <ClInclude Include="image.h" />
   </ItemGroup>
 </Project>
