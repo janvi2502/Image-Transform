@@ -133,6 +133,9 @@
   <ItemGroup>
     <ClInclude Include="image.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Users\guptaj\Downloads\jasper.bmp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

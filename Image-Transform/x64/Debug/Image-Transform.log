@@ -1,2 +1,148 @@
+<<<<<<< HEAD
+﻿  image.cpp
+C:\Projects\Image-Transform\Image-Transform\image.h(8,9): error C2065: 'Pixel': undeclared identifier
+  (compiling source file 'image.cpp')
+  
+C:\Projects\Image-Transform\Image-Transform\image.h(8,2): error C2923: 'std::vector': 'Pixel' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'image.cpp')
+  C:\Projects\Image-Transform\Image-Transform\image.h(8,9):
+  see declaration of 'Pixel'
+  
+C:\Projects\Image-Transform\Image-Transform\image.h(8,2): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'image.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Projects\Image-Transform\Image-Transform\image.cpp(20,12): error C2663: 'std::vector<_Ty,_Alloc>::resize': no overloaded function has valid conversion for 'this' pointer
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1588,23):
+  could be 'void std::vector<_Ty,_Alloc>::resize(const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+  	C:\Projects\Image-Transform\Image-Transform\image.cpp(20,12):
+  	'void std::vector<_Ty,_Alloc>::resize(const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(20,5):
+  		Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(20,5):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(20,12):
+  while trying to match the argument list '(int)'
+  
+C:\Projects\Image-Transform\Image-Transform\image.cpp(22,28): error C2663: 'std::vector<_Ty,_Alloc>::data': no overloaded function has valid conversion for 'this' pointer
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1798,40):
+  could be 'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const'
+  	C:\Projects\Image-Transform\Image-Transform\image.cpp(22,28):
+  	'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(22,21):
+  		Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(22,21):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1794,34):
+  or       '_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept'
+  	C:\Projects\Image-Transform\Image-Transform\image.cpp(22,28):
+  	'_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(22,21):
+  		Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(22,21):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(22,28):
+  while trying to match the argument list '()'
+  
+C:\Projects\Image-Transform\Image-Transform\image.cpp(22,47): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(22,40):
+  Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(22,40):
+  Conversion requires a second user-defined-conversion operator or constructor
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1875,39):
+  see declaration of 'std::vector<_Ty,_Alloc>::size'
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(22,47):
+  while trying to match the argument list '()'
+  
+C:\Projects\Image-Transform\Image-Transform\image.cpp(40,29): error C2663: 'std::vector<_Ty,_Alloc>::data': no overloaded function has valid conversion for 'this' pointer
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1798,40):
+  could be 'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const'
+  	C:\Projects\Image-Transform\Image-Transform\image.cpp(40,29):
+  	'const _Ty *std::vector<_Ty,_Alloc>::data(void) noexcept const': cannot convert 'this' pointer from 'const std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(40,22):
+  		Reason: cannot convert from 'const std::vector' to 'const std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(40,22):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1794,34):
+  or       '_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept'
+  	C:\Projects\Image-Transform\Image-Transform\image.cpp(40,29):
+  	'_Ty *std::vector<_Ty,_Alloc>::data(void) noexcept': cannot convert 'this' pointer from 'const std::vector' to 'std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(40,22):
+  		Reason: cannot convert from 'const std::vector' to 'std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\image.cpp(40,22):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(40,29):
+  while trying to match the argument list '()'
+  
+C:\Projects\Image-Transform\Image-Transform\image.cpp(40,48): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'const std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(40,41):
+  Reason: cannot convert from 'const std::vector' to 'const std::vector<_Ty,_Alloc>'
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(40,41):
+  Conversion requires a second user-defined-conversion operator or constructor
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1875,39):
+  see declaration of 'std::vector<_Ty,_Alloc>::size'
+  C:\Projects\Image-Transform\Image-Transform\image.cpp(40,48):
+  while trying to match the argument list '()'
+  
+C:\Projects\Image-Transform\Image-Transform\image.cpp(44,19): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
+  main.cpp
+C:\Projects\Image-Transform\Image-Transform\image.h(8,9): error C2065: 'Pixel': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Projects\Image-Transform\Image-Transform\image.h(8,2): error C2923: 'std::vector': 'Pixel' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'main.cpp')
+  C:\Projects\Image-Transform\Image-Transform\image.h(8,9):
+  see declaration of 'Pixel'
+  
+C:\Projects\Image-Transform\Image-Transform\image.h(8,2): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'main.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_begin': no overloaded function has valid conversion for 'this' pointer
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1858,43):
+  could be 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const'
+  	C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  	'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1854,37):
+  or       'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept'
+  	C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  	'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  while trying to match the argument list '()'
+  
+C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27): error C2663: 'std::vector<_Ty,_Alloc>::_Unchecked_end': no overloaded function has valid conversion for 'this' pointer
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1866,43):
+  could be 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const'
+  	C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  	'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\include\vector(1862,37):
+  or       'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept'
+  	C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  	'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+  		C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  		Conversion requires a second user-defined-conversion operator or constructor
+  C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27):
+  while trying to match the argument list '()'
+  
+C:\Projects\Image-Transform\Image-Transform\main.cpp(7,19): error C2065: 'p': undeclared identifier
+  Generating Code...
+=======
 ﻿  main.cpp
 C:\Projects\Image-Transform\Image-Transform\main.cpp(7,19): error C2065: 'p': undeclared identifier
+>>>>>>> master
