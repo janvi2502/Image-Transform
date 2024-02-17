@@ -4,7 +4,7 @@ int main() {
 	Image image = readImage("jasper.bmp");
 
 	for (Pixel& pixel : image.pixels) {
-		pixel = toBandW(p);
+		pixel = toBandW(pixel);
 	}
 
 	writeImage("output.bmp", image);
