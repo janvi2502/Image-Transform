@@ -1,8 +1,14 @@
 #include "image.h"
 #include <fstream>
+#include <iostream>
 
 Image readImage(const char* file) {
-	std::fstream bmp(file, std::ios::binary);
+	std::ifstream bmp(file, std::ios::binary);
+
+	if (!bmp) {
+		std::cerr << "Failed to open input BMP file." << std::endl;
+		return Image();
+	}
 	char header[54];
 
 
@@ -24,8 +30,13 @@ Image readImage(const char* file) {
 	return img;
 }
 
-void writeImage(const char* file, const Image & img) {
+void writeImage(const char* file, const Image& img) {
 	std::ofstream bmp(file, std::ios::binary);
+
+	if (!bmp) {
+		std::cerr << "Failed to open output BMP file." << std::endl;
+		return;
+	}
 
 	char header[54] = { 'B', 'M', 0 };
 	*(int*)&header[2] = 54 + img.width * img.height * sizeof(Pixel);
