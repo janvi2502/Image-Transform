@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  image.cpp
 C:\Projects\Image-Transform\Image-Transform\image.h(8,9): error C2065: 'Pixel': undeclared identifier
   (compiling source file 'image.cpp')
@@ -141,3 +142,7 @@ C:\Projects\Image-Transform\Image-Transform\main.cpp(6,27): error C2663: 'std::v
   
 C:\Projects\Image-Transform\Image-Transform\main.cpp(7,19): error C2065: 'p': undeclared identifier
   Generating Code...
+=======
+﻿  main.cpp
+C:\Projects\Image-Transform\Image-Transform\main.cpp(7,19): error C2065: 'p': undeclared identifier
+>>>>>>> master
