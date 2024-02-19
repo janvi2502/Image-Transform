@@ -51,7 +51,7 @@ void writeImage(const char* file, const Image& img) {
 	bmp.write((char*)img.pixels.data(), img.pixels.size() * sizeof(Pixel));
 }
 
-Pixel toBandW(const Pixel& p) {
+Pixel toGrayscale(const Pixel& p) {
 	unsigned char bw = p .r * 0.3 + p.g * 0.59 + p.b * 0.11;
 	return { bw, bw, bw };
 }
