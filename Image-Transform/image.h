@@ -13,5 +13,5 @@ struct Image {
 
 Image readImage(const char* file);
 void writeImage(const char* file, const Image& img);
-Pixel toBandW(const Pixel& pixels);
+Pixel toGrayscale(const Pixel& pixels);
 
